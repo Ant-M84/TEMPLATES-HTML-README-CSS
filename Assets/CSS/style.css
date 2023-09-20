@@ -1,0 +1,18 @@
+body {
+    display: flex;
+}
+
+header {
+    display: flex;
+}
+
+main {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    main {
+        flex-direction: column;
+    }
+}
